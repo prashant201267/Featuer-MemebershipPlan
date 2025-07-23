@@ -9,7 +9,6 @@ This project provides a backend service for managing **membership plans and thei
 - Create, read, and manage **Membership Plans**
 - Define multiple **Membership Tiers** under each plan
 - Fetch available tiers for a specific plan
-- Optional: Add **benefits** for each tier (free delivery, discounts, early access, etc.)
 - Structured in a **future-ready**, modular architecture
 
 ---
@@ -18,8 +17,6 @@ This project provides a backend service for managing **membership plans and thei
 
 - Java 17
 - Spring Boot 3.x
-- Spring Web
-- Spring Data JPA
 - H2 (in-memory) database (for testing/demo)
 - Maven
 - Postman for API testing
