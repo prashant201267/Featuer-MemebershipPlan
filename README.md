@@ -31,6 +31,19 @@ This project provides a backend service for managing **membership plans and thei
 - Maven
 - Spring Boot CLI (optional)
 
+---
+### API Endpoints
+Method	Endpoint	Description
+GET	/api/memberships/plans	Get all available membership plans.
+GET	/api/memberships/tiers	Get all available membership tiers.
+GET	/api/memberships/plans/{planId}/tiers	Get tiers under a specific plan.
+POST	/api/memberships/subscribe	Subscribe a user to a plan and tier.
+POST	/api/memberships/upgrade	Upgrade user's subscription.
+POST	/api/memberships/downgrade	Downgrade user's subscription.
+DELETE	/api/memberships/cancel/{userId}	Cancel a user's subscription.
+GET	/api/memberships/subscription/{userId}	Get a user's current subscription.
+
+
 ### 🔧 Setup
 
 1. Clone the repository:
